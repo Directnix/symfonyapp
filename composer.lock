@@ -4,7 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7fcda12cddb5e463abd88f8573b5b90a",
+    "hash": "1eac60788a9ef25c0c32c93f451df9f6",
+    "content-hash": "00f969811b2038bec1b02aae9c854194",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1022,6 +1023,54 @@
                 "psr-3"
             ],
             "time": "2015-08-31 09:17:37"
+        },
+        {
+            "name": "nedwave/user-bundle",
+            "version": "v3.0.4",
+            "target-dir": "Nedwave/UserBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Nedwave/UserBundle.git",
+                "reference": "059b5fa8a8814a3dba4a78e08deee2d34407f1c7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Nedwave/UserBundle/zipball/059b5fa8a8814a3dba4a78e08deee2d34407f1c7",
+                "reference": "059b5fa8a8814a3dba4a78e08deee2d34407f1c7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "symfony/framework-bundle": ">=2.6,<3.0"
+            },
+            "suggest": {
+                "nedwave/mandrill-swiftmailer-bundle": "Improve your e-mail delivery with Mandrill"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Nedwave\\UserBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nedwave",
+                    "email": "info@nedwave.com",
+                    "homepage": "http://nedwave.com/"
+                }
+            ],
+            "description": "User management for Symfony2. Compatible with Doctrine ORM ",
+            "homepage": "https://github.com/Nedwave/UserBundle",
+            "keywords": [
+                "Symfony2",
+                "User management",
+                "Users"
+            ],
+            "time": "2015-09-09 19:50:17"
         },
         {
             "name": "psr/log",
