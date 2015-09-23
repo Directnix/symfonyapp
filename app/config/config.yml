@@ -78,3 +78,11 @@ swiftmailer:
     username:  "%mailer_user%"
     password:  "%mailer_password%"
     spool:     { type: memory }
+
+# Nedwave User Bundle
+nedwave_user:
+    user_class: AppBundle\Entity\User
+    firewall_name: main
+    mailer:
+        from_email: info@nedwave.com
+        from_name: Nedwave
